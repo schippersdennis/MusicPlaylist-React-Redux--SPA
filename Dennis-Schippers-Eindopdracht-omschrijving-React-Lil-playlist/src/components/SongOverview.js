@@ -33,6 +33,8 @@ class SongOverview extends React.Component {
 				}
 				return newState
 			})
+			name.value = ""
+			artist.value = ""
 		} else {
 			alert("Feed me good music first")
 		}
