@@ -31,10 +31,11 @@ class SongOverview extends React.Component {
 					...prevState,
 					songs: newArray,
 				}
+				name.value = ""
+				artist.value = ""
+
 				return newState
 			})
-			name.value = ""
-			artist.value = ""
 		} else {
 			alert("Feed me good music first")
 		}
