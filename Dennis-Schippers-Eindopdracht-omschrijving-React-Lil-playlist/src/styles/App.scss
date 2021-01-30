@@ -1,0 +1,56 @@
+//Import fonts
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+//About Page
+@import "./about_page/about";
+//Project page
+@import "./project_page/project";
+// main (app) page
+@import "./app_page/nav";
+@import "./app_page/forms_add_song";
+@import "./app_page/main_ul_li";
+@import "./app_page/footer";
+@import "./app_page/media_queries";
+
+// Globals.
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Francois One", sans-serif;
+	color: rgb(49, 49, 49);
+}
+.body-container {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: "n" "m" "f";
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 0 0 50px 0;
+	border-right: 1px solid rgb(220, 219, 219);
+	border-bottom: 1px solid rgb(228, 224, 224);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(3, 77, 94, 0.156);
+	border-radius: 0 0 50px 0;
+}
+::-webkit-scrollbar-corner {
+	background: #0c0c0c;
+}
+
+.main {
+	grid-area: m;
+	margin: auto;
+}

@@ -1,0 +1,36 @@
+// form
+.form {
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+
+	& input,
+	select,
+	button {
+		color: rgb(34, 50, 67);
+		width: 100%;
+		font-size: 18px;
+		padding: 5px;
+		margin-bottom: 2px;
+		border: 1px solid white;
+		border-radius: 3px;
+		outline: none;
+	}
+	& button {
+		color: rgb(34, 50, 67);
+		font-weight: 700;
+		&:hover {
+			transition: 250ms;
+			background-color: rgba(34, 50, 67, 0.433);
+			border: 1px solid rgba(34, 50, 67, 0.433);
+			color: rgba(248, 255, 219, 1);
+			cursor: pointer;
+		}
+	}
+	& .genre,
+	.rating {
+		& option {
+			color: rgb(34, 50, 67);
+		}
+	}
+}

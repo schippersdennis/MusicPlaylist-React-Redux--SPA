@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+@import "./logo";
+@import "./form";
+@import "./list_main";
+@import "./footer";
+@import "./media_queries";
+
+@mixin flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flexCol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+@mixin flexStart {
+	display: flex;
+	justify-content: flex-start;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+
+	background: rgb(248, 255, 219);
+	background: linear-gradient(
+		90deg,
+		rgba(248, 255, 219, 1) 0%,
+		rgba(10, 156, 226, 1) 100%
+	);
+	color: rgb(34, 50, 67);
+}
+// scrolbar
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(34, 50, 67, 0.72);
+	border-radius: 0 0 3px 0;
+	border-right: 1px solid rgb(34, 50, 67);
+	border-bottom: 1px solid rgb(34, 50, 67);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(248, 255, 219, 1);
+	border-radius: 0 0 3px 0;
+}
+::-webkit-scrollbar-corner {
+	background: #0c0c0c;
+}
+
+//App Container
+.appContainer {
+	height: 100vh;
+}

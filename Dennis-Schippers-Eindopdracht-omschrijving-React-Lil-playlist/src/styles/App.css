@@ -1,0 +1,694 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+.aboutContainer {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.aboutContainer .aboutHeader {
+  text-align: center;
+}
+
+.aboutContainer .aboutHeader h2 {
+  margin-bottom: 20px;
+}
+
+.aboutContainer .aboutHeader img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.aboutContainer .text-wrap-about {
+  margin: auto;
+  width: 90%;
+}
+
+.aboutContainer .text-wrap-about p:nth-child(1) span {
+  color: #00789d;
+  font-size: 30px;
+}
+
+.aboutContainer .text-wrap-about p:nth-child(2) {
+  margin: 10px 0;
+}
+
+.aboutContainer .text-wrap-about blockquote {
+  color: #00789d;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.aboutContainer .text-wrap-about p:nth-child(4) span {
+  color: #00789d;
+  font-size: 30px;
+}
+
+.aboutContainer .text-wrap-about p:nth-child(5) {
+  margin-top: 10px;
+}
+
+.project-container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-container img {
+  margin: 20px;
+  max-width: 50%;
+}
+
+.project-container h1 {
+  color: #00789d;
+}
+
+.project-container h1 .project-icon {
+  margin-right: 10px;
+}
+
+.project-container .project-wrap {
+  margin-top: 30px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.project-container .project-wrap:hover {
+  border: 1px solid #00789d;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.project-container .project-wrap a {
+  color: #313131;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.project-container .project-wrap a:visited {
+  color: #313131;
+}
+
+.project-container .project-wrap .project-icon {
+  color: #00789d;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: n;
+  font-size: 25px;
+  color: white;
+  font-family: "Francois One", sans-serif;
+  width: 100%;
+  background-color: #333741;
+}
+
+nav .nav-links .nav-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .menu-icon {
+  color: #00789d;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav a:active {
+  color: cyan;
+}
+
+nav li {
+  text-align: center;
+  cursor: pointer;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+}
+
+nav li:hover {
+  background-color: #00789d;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+nav li:hover .menu-icon {
+  color: white;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-transform: scale(1.2) rotate(360deg);
+          transform: scale(1.2) rotate(360deg);
+}
+
+nav ul {
+  width: 100%;
+}
+
+.is-active .menu-icon {
+  -webkit-animation: rotating 1.5s linear infinite;
+  animation: rotating 1.5s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.form-specs {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-specs input,
+.form-specs select,
+.form-specs button {
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #00789d;
+  border-radius: 5px;
+}
+
+.form-specs button {
+  background-color: rgba(0, 120, 157, 0.3);
+  margin-top: 10px;
+  color: #333741;
+  font-weight: 700;
+}
+
+.form-specs button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 120, 157, 0.8);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.form-specs .form-rating {
+  color: #00789d;
+}
+
+.infoBar {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  background-color: #00789d;
+  min-height: 32px;
+}
+
+.infoBar p {
+  display: none;
+}
+
+.infoBar .sort-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infoBar .sort-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.infoBar .sort-container .select-sort {
+  display: none;
+}
+
+.infoBar .sort-container .select-sort-mobile {
+  display: block;
+}
+
+.infoBar .sort-container .sort-icon {
+  color: white;
+}
+
+.infoBar .sort-container optgroup {
+  color: #00789d;
+}
+
+.infoBar .sort-container option {
+  color: black;
+}
+
+.infoBar .sort-container select {
+  outline: none;
+  border-radius: 7px;
+}
+
+.song-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+}
+
+.song-list-item {
+  position: relative;
+  background-color: rgba(0, 120, 157, 0.3);
+  width: 90%;
+  border-radius: 5px 0 0 5px;
+  font-size: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #00789d;
+}
+
+.song-list-item:nth-child(even) {
+  background-color: rgba(0, 120, 157, 0.1);
+}
+
+.song-list-item .li-artist,
+.song-list-item .li-song-name,
+.song-list-item .li-genre,
+.song-list-item .li-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.song-list-item .deleteBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  font-size: 20px;
+  color: #00789d;
+}
+
+.song-list-item .deleteBtn:hover {
+  cursor: pointer;
+  color: #333741;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.song-list-item .li-rating {
+  color: #00789d;
+  margin-left: 3px;
+}
+
+.song-list-item .icon-li {
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+.song-list-item p {
+  margin-left: 10px;
+}
+
+.Footer {
+  margin-top: 50px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: f;
+  font-size: 18px;
+  font-family: "Francois One", sans-serif;
+  width: 100%;
+  background-color: #333741;
+  color: #00789d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Footer p {
+  color: white;
+  margin: 10px;
+}
+
+.Footer p .footer-icon {
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #00789d;
+}
+
+.Footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer .footer-item-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.Footer .footer-item-wrap .footer-icon {
+  color: #00789d;
+}
+
+.Footer .footer-item-wrap:visited {
+  color: white;
+}
+
+.Footer .footer-item-wrap:hover {
+  background-color: #00789d;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.Footer .footer-item-wrap:hover .footer-icon {
+  color: white;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-transform: scale(1.2) rotate(360deg);
+          transform: scale(1.2) rotate(360deg);
+}
+
+.Footer .naw {
+  font-size: 12px;
+}
+
+@media (min-width: 1000px) {
+  .nav-links {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .nav-links li {
+    width: 33.3vw;
+  }
+  main {
+    margin-top: 100px;
+  }
+  .form-specs {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    background: rgba(3, 77, 94, 0.156);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form-specs input,
+  .form-specs select,
+  .form-specs button {
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #00789d;
+    border-radius: 5px;
+  }
+  .form-specs input:nth-child(1) {
+    border-radius: 50px 0 0 50px;
+  }
+  .form-specs button {
+    background-color: rgba(0, 120, 157, 0.3);
+    margin-top: 0px;
+    border-radius: 0 50px 50px 0;
+  }
+  .form-specs .form-rating {
+    color: #00789d;
+  }
+  .songlist-info-wrap {
+    margin: auto;
+    width: 95%;
+  }
+  .song-list {
+    max-height: 700px;
+    overflow-y: scroll;
+  }
+  .song-list .song-list-item {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .song-list .song-list-item .deleteBtn {
+    top: 6px;
+  }
+  .infoBar {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px 5px 0 5px;
+    background-color: #00789d;
+  }
+  .infoBar p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: block;
+    color: white;
+    margin-right: 10px;
+  }
+  .infoBar .sort-container {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    top: 0px;
+    right: 0px;
+  }
+  .infoBar .sort-container .select-sort-mobile {
+    display: none;
+  }
+  .infoBar .sort-container .select-sort {
+    display: block;
+    width: 30%;
+  }
+  .infoBar .sort-container .sort-icon {
+    color: white;
+  }
+  .infoBar .sort-container optgroup {
+    color: #00789d;
+  }
+  .infoBar .sort-container option {
+    color: black;
+  }
+  .infoBar .sort-container select {
+    outline: none;
+    border-radius: 7px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .form-specs {
+    width: 60%;
+  }
+  .songlist-info-wrap {
+    margin: auto;
+    width: 75%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Francois One", sans-serif;
+  color: #313131;
+}
+
+.body-container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas: "n" "m" "f";
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0 0 50px 0;
+  border-right: 1px solid #dcdbdb;
+  border-bottom: 1px solid #e4e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(3, 77, 94, 0.156);
+  border-radius: 0 0 50px 0;
+}
+
+::-webkit-scrollbar-corner {
+  background: #0c0c0c;
+}
+
+.main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: m;
+  margin: auto;
+}
+/*# sourceMappingURL=App.css.map */

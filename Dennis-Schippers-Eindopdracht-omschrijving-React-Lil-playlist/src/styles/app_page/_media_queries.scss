@@ -1,0 +1,139 @@
+@media (min-width: 1000px) {
+	//nav
+	.nav-links {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		& li {
+			width: 33.3vw;
+		}
+	}
+	// main container ( input + list)
+	main {
+		margin-top: 100px;
+	}
+
+	//input form
+	.form-specs {
+		width: 95%;
+		margin: auto;
+		margin-bottom: 50px;
+		padding: 20px;
+		border-radius: 50px;
+		background: rgba(3, 77, 94, 0.156);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		& input,
+		select,
+		button {
+			margin-right: 5px;
+			margin-bottom: 0px;
+			font-size: 20px;
+			padding: 10px;
+			outline: none;
+			border: 1px solid rgb(0, 120, 157);
+			border-radius: 5px;
+		}
+		& input:nth-child(1) {
+			border-radius: 50px 0 0 50px;
+		}
+		& button {
+			background-color: rgba(0, 120, 157, 0.3);
+
+			margin-top: 0px;
+			border-radius: 0 50px 50px 0;
+		}
+		& .form-rating {
+			color: rgb(0, 120, 157);
+		}
+	}
+
+	//unorderd-list
+
+	.songlist-info-wrap {
+		margin: auto;
+		width: 95%;
+	}
+	.song-list {
+		max-height: 700px;
+		overflow-y: scroll;
+
+		& .song-list-item {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: 1fr;
+			grid-column-gap: 0px;
+			grid-row-gap: 0px;
+
+			& .deleteBtn {
+				top: 6px;
+			}
+		}
+	}
+
+	// header with filter selectboxes
+	.infoBar {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+		border-radius: 5px 5px 0 5px;
+		background-color: rgb(0, 120, 157);
+
+		& p {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: block;
+			color: white;
+			margin-right: 10px;
+		}
+
+		& .sort-container {
+			position: relative;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: 1fr;
+			grid-column-gap: 0px;
+			grid-row-gap: 0px;
+			top: 0px;
+			right: 0px;
+			& .select-sort-mobile {
+				display: none;
+			}
+			& .select-sort {
+				display: block;
+
+				width: 30%;
+			}
+			& .sort-icon {
+				color: white;
+			}
+			& optgroup {
+				color: rgb(0, 120, 157);
+			}
+			& option {
+				color: black;
+			}
+			& select {
+				outline: none;
+				border-radius: 7px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1500px) {
+	.form-specs {
+		width: 60%;
+	}
+	.songlist-info-wrap {
+		margin: auto;
+		width: 75%;
+	}
+}

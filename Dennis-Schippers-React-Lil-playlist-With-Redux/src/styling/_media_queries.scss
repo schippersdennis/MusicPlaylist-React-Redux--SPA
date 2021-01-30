@@ -1,0 +1,74 @@
+@media (min-width: 900px) {
+	// container
+	.appContainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto 1fr auto;
+	}
+	//form
+	.form {
+		width: 60%;
+	}
+	//list (main)
+	.songlist-info-wrap {
+		width: 80%;
+
+		//list header
+		& .list-header {
+			& .sort-container {
+				display: block;
+				display: grid;
+				grid-template-columns: repeat(4, 1fr) 50px;
+				grid-template-rows: 1fr;
+				& .select-sort-mobile {
+					display: none;
+				}
+				& .sortbox {
+					display: block;
+					@include flexStart();
+					& .icon-li {
+						margin-top: 5px;
+					}
+					& p {
+						color: rgba(248, 255, 219, 1);
+						margin-right: 5px;
+					}
+					& select {
+						outline: none;
+						color: rgb(34, 50, 67);
+					}
+				}
+			}
+		}
+		// list (ul)
+		& .song-list {
+			max-height: 600px;
+			overflow-y: scroll;
+			& li {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr) 50px;
+				grid-template-rows: 1fr;
+
+				& .li-song-name,
+				.li-artist,
+				.li-genre,
+				.li-rating {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+					color: black;
+
+					& .icon-li {
+						vertical-align: middle;
+
+						color: rgb(34, 50, 67);
+					}
+				}
+
+				& .li-rating {
+					color: rgb(34, 50, 67);
+				}
+			}
+		}
+	}
+}

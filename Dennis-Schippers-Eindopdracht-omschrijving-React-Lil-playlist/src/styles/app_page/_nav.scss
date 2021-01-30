@@ -1,0 +1,81 @@
+nav {
+	grid-area: n;
+	font-size: 25px;
+	color: white;
+	font-family: "Francois One", sans-serif;
+
+	width: 100%;
+	background-color: rgb(51, 55, 65);
+	& .nav-links {
+		& .nav-links {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+	}
+
+	& .menu-icon {
+		color: rgb(0, 120, 157);
+		vertical-align: middle;
+		margin-right: 20px;
+	}
+
+	& a {
+		text-decoration: none;
+		color: whitesmoke;
+
+		&:active {
+			color: cyan;
+		}
+	}
+	& li {
+		text-align: center;
+		cursor: pointer;
+		font-size: 28px;
+		padding: 20px;
+		width: 100%;
+
+		&:hover {
+			background-color: rgb(0, 120, 157);
+
+			transition: 300ms;
+		}
+		&:hover .menu-icon {
+			color: white;
+			transition: 300ms;
+			transform: scale(1.2) rotate(360deg);
+		}
+	}
+	& ul {
+		width: 100%;
+	}
+}
+// little animation on the icons in the navigation.
+.is-active {
+	& .menu-icon {
+		-webkit-animation: rotating 1.5s linear infinite;
+		-moz-animation: rotating 1.5s linear infinite;
+		-ms-animation: rotating 1.5s linear infinite;
+		-o-animation: rotating 1.5s linear infinite;
+		animation: rotating 1.5s linear infinite;
+	}
+}
+
+@keyframes rotating {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}

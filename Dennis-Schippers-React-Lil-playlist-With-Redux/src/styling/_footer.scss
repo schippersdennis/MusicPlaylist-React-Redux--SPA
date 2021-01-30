@@ -1,0 +1,41 @@
+.footer {
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: rgba(34, 50, 67, 0.411);
+	& .footer-container {
+		width: 100%;
+		@include flexCenter();
+		& a {
+			padding: 20px;
+			width: 33.3vw;
+			color: rgb(34, 50, 67);
+			@include flexCenter();
+			text-decoration: none;
+			font-size: 20px;
+			& .footer-icon {
+				margin-right: 5px;
+			}
+			&:visited {
+				color: rgb(34, 50, 67);
+			}
+			&:hover {
+				transition: 350ms;
+				background-color: rgb(34, 50, 67);
+				color: rgba(248, 255, 219, 1);
+			}
+		}
+	}
+	& .naw {
+		width: 100%;
+		text-align: center;
+		padding: 30px;
+		& .footer-icon {
+			vertical-align: middle;
+			margin-left: 5px;
+			margin-right: 4px;
+
+			color: rgba(248, 255, 219, 1);
+		}
+	}
+}

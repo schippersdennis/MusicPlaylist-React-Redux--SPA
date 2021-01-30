@@ -1,0 +1,23 @@
+// logo
+.logo-wrap {
+	margin-top: 40px;
+	@include flexCol();
+	& .redux-icon {
+		margin-bottom: 20px;
+		color: rgba(248, 255, 219, 1);
+		vertical-align: middle;
+		font-size: 60px;
+		animation: rotate 2500ms linear infinite;
+	}
+	& h1 {
+		font-size: 50px;
+	}
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
