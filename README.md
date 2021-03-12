@@ -6,4 +6,7 @@ React Playlist - Single Page Application (SPA) where you can save all your favor
 
 
 ### Project Two React-Redux
-![playlist redux](https://user-images.githubusercontent.com/72910410/110999013-02258d00-8380-11eb-9e1c-f4c10b2422db.jpg)
+
+![playlist redux](https://user-images.githubusercontent.com/72910410/110999308-77915d80-8380-11eb-8d81-ccbba4d24a27.jpg)
+
+
