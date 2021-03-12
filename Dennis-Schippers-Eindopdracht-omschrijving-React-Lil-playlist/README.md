@@ -4,7 +4,7 @@
 ![playlist class](https://user-images.githubusercontent.com/72910410/110999012-018cf680-8380-11eb-86a9-99dc3ed8fd7c.jpg)
 
 # React-Playlist
-React Playlist - Single Page Application (SPA) where you can save all your favorite songs with a rating. For my own learning curve, I chose to make this project in two different ways. One made with class-based components, the other made with Redux State management. Both projects have their own unique styling made with SCSS
+Single Page Application (SPA) where you can save all your favorite songs with a rating. For my own learning curve, I chose to make this project in two different ways. One made with class-based components, the other made with Redux State management. Both projects have their own unique styling made with SCSS
 #### Requirements 
 In order to meet the requirements of the (imaginary) employer, we expect your SPA to meet the following core functionalities:
 >- As a user I would like to enter the following information about my song: title, artist, genre, rating (dropdown menu is not required).
