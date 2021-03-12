@@ -1,4 +1,4 @@
-# Eindopdracht-Dennis-Schippers-React-Redux-Playlist
+# React-Playlist
 React Playlist - Single Page Application (SPA) where you can save all your favorite songs with a rating. For my own learning curve, I chose to make this project in two different ways. One made with class-based components, the other made with Redux State management. Both projects have their own unique styling made with SCSS
 #### Requirements 
 In order to meet the requirements of the (imaginary) employer, we expect your SPA to meet the following core functionalities:
