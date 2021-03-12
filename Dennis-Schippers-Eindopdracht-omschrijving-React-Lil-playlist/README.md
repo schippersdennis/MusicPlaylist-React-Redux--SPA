@@ -15,7 +15,7 @@ In order to meet the requirements of the (imaginary) employer, we expect your SP
 >- React REDUX
 
 
-### Project One - React class-based components
+### React Playlist 
 ##### Assignment: React Playlist - Single Page Application (SPA) made with class-based components
 ##### Result: https://react-playlist-8c5b54.netlify.app/
 ![playlist class](https://user-images.githubusercontent.com/72910410/110999012-018cf680-8380-11eb-86a9-99dc3ed8fd7c.jpg)
