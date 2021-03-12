@@ -22,7 +22,7 @@ In order to meet the requirements of the (imaginary) employer, we expect your SP
 
 ---
 
-### Project Two React-Redux
+### Project Two - React-Redux
 ##### Assignment: React Playlist - Single Page Application (SPA) made with React Redux
 ##### Result: https://redux-playlist-52de5b.netlify.app
 ![playlist redux](https://user-images.githubusercontent.com/72910410/110999308-77915d80-8380-11eb-8d81-ccbba4d24a27.jpg)
